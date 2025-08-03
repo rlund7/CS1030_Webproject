@@ -1,0 +1,42 @@
+/*index_style.css*/
+/*
+white: #cee0e4
+accent 1 green: #1F7033
+accent 2 purple: #853C70
+accent 3 black: #000000
+*/
+
+body {
+	background-color: #cee0e4;
+	padding: 0 24px 24px 24px;
+}
+
+h1,h2,h3 {
+	color: #1F7033;
+	font-weight: bold;
+}
+
+h1,h2,h3,p.picture {
+	text-align: center;
+}
+
+a {
+	color: #853C70;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000000;
+}
+
+table {
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th,td {
+	border: #000000 solid 1px;
+	padding: 6px;
+	text-align: center;
+}

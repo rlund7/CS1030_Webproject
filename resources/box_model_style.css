@@ -1,0 +1,55 @@
+box_model_style.css
+/*
+white: #FFFFFF
+accent 1 green: #3C8551
+accent 2 purple: #853C70
+*/
+
+h1, h2, h3 {
+	color: #3C8551;
+}
+
+h1 {
+		text-align: center; 
+		color: #3C8551;
+}
+
+th, td {
+	border: #853C70 dashed 6px;
+	padding: 12px;
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a {
+	color: #3C8551;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #853C70;
+}
+
+p.test {
+	background-color: #3C8551;
+	color: #FFFFFF; margin: auto;
+	width: 720px; padding: 8px;
+	border: #853C70 solid 10px;
+}
+
+div {
+	background-color: #3C8551;
+	width: 646px; padding: 16px;
+	border: #853C70 double 8px;
+	margin: auto;
+}
+
+body {
+	padding: 0 24px 24px 24px;
+}
